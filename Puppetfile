@@ -15,3 +15,16 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'nginx'
+  :git => 'git@github.com:tercissimo/puppet-nginx.git',
+  :ref => 'master'
+
+mod 'role'
+  :git => 'git@github.com:tercissimo/puppet-role.git',
+  :ref => 'master'
+
+mod 'profile'
+  :git => 'git@github.com:tercissimo/puppet-profile.git',
+  :ref => 'master'
+
