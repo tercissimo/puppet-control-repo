@@ -1,0 +1,8 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'puppet2client.muro.local'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'puppet2clientx2.muro.local'
+   'port': 80
+   'server_aliases': 'puppet2clientx2x2.muro.local'
